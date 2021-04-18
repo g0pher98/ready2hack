@@ -12,6 +12,10 @@ define v8-break
     b v8::base::ieee754::sin
 end
 
+define job
+    call (void) _v8_internal_Print_Object((void*)($arg0))
+end
+
 define _peda
     source ~/.gdb_plugin/peda/peda.py
 end
