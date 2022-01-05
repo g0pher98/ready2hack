@@ -116,6 +116,8 @@ run "./scripts/pwn/gdb_tools.sh"
 run "./scripts/vm/docker.sh"
 run "./scripts/vm/qemu.sh"
 
+run "./scripts/iot/firmware-mod-kit.sh"
+
 run "./scripts/etc/binwalk.sh"
 #run "./scripts/etc/ai.sh"
 
